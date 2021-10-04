@@ -1,0 +1,34 @@
+{
+  "name": "product-pricing-ms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhagyashri-nimap/product-pricing-ms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhagyashri-nimap/product-pricing-ms/issues"
+  },
+  "homepage": "https://github.com/bhagyashri-nimap/product-pricing-ms#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "js-sha256": "^0.9.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.8",
+    "mongoose-float": "^1.0.4",
+    "nodemon": "^2.0.13",
+    "request": "^2.88.2"
+  }
+}
