@@ -3,6 +3,9 @@ const express = require('express');
 const mongoose = require('./db.js');
 var router = require('./routers/router')
 const app = express();
+app.use(cors());
+app.options('*', cors());
+
 app.use(router)
 const server = require('http').createServer(app);
 server.listen(3001, () => {
